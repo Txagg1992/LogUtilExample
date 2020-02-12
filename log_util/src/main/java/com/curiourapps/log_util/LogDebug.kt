@@ -4,9 +4,9 @@ import android.util.Log
 
 class LogDebug {
 
-    private val TAG :String = "*Awesomeness*"
+    private val TAG = "Awesomness"
 
-    fun d(message: String){
+    fun d(message: String?) {
         Log.d(TAG, message)
     }
 }
