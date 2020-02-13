@@ -4,9 +4,13 @@ import android.util.Log
 
 class LogDebug {
 
-    private val TAG = "Awesomness"
+    companion object{
+        val TAG = "Awesomness"
 
-    fun d(message: String?) {
-        Log.d(TAG, message)
+        fun d(message: String?) {
+            Log.d(TAG, message)
+        }
     }
+
+
 }
